@@ -1,0 +1,54 @@
+img{
+  /* here place the height of the img*/
+  height:50px;
+  /* bellow you can add any other specs of the img*/
+  /*opacity: 0.5;*/
+}
+/*check out this site for save fonts https://www.cssfontstack.com etc. */
+/*or google fonts*/
+/*there choose style link and copy paste it to index.html*/
+/*before the stylesheet link*/
+/*then copy paste the "other" code to the element in the style.css*/
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  background-color: lightcyan;
+  background-image: url(/Users/useruser/Desktop/CODECADEMY_CODE/CSS-Visuals-Practice-Web/images/savannah_film_festival_2.jpg);
+  /*if the link image does not work*/
+  /*background-color will be used as a safe net*/
+}
+
+h1{
+  font-size: 40px;
+}
+p{
+  font-size: 20px;
+  font-weight: bold; /*in text you can use <b></b> or <strong></strong>*/
+}
+main{
+  text-align: right;/*will align all content in the main element including text*/
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  /*background-color: black;
+  opacity:0.5; *//*makes the color  transparency 50% less, but watch out it is also applied to text*/
+  background-color: rgba(0, 0, 0, 0.5); /*rgba solves it, or 0.5 is 50% is transparency*/
+
+}
+
+nav li {
+  list-style: none;
+}
+nav li.menu-item a {
+  color:red ;
+  font-size:  30px;
+}
+
+li.menu-item a{
+  color: pink;
+  font-size: 20px;
+}
